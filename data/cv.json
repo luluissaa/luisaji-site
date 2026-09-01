@@ -27,19 +27,27 @@
     { "year": "2020–2021", "slug": "new-not-normal" }
   ],
   "residencies": [
-    { "date": "2025", "entry": "Hsinchu City Art Site of Railway Warehouse Residency", "location": "Hsinchu, Taiwan" },
+    { "date": "2025", "entry": "Hsinchu City Artsite Railway Warehouse Residency — Accton Arts Foundation", "location": "Hsinchu, Taiwan" },
     { "date": "2024", "entry": "When Spiders Spin Dusk — residency at Ferme Lanthorn", "location": "Wakefield, Quebec", "slug": "when-spiders-spin-dusk" },
-    { "date": "2024", "entry": "SÍM Residency", "location": "Reykjavik, Iceland" },
+    { "date": "2024", "entry": "Radio-Hull Residency", "location": "Hull, Quebec", "slug": "sediments" },
+    { "date": "2024", "entry": "SÍM Residency", "location": "Reykjavik, Iceland", "slug": "shipwreck" },
     { "date": "2023", "entry": "Poetics of Synthetic Language Residency", "location": "Milan, Italy", "slug": "poetics-of-synthetic-language" },
     { "date": "2023", "entry": "Pervasive Media Studio Residency", "location": "Watershed, Bristol, UK" },
-    { "date": "2022", "entry": "Restructuring Futures — mobile strategies of display and mediation", "location": "London, UK", "slug": "restructuring-futures" },
-    { "date": "2021", "entry": "Museum of Quietness", "location": "THEMUSEUM, Kitchener, Canada", "slug": "museum-of-quietness" }
+    { "date": "2022", "entry": "Restructuring Futures — mobile strategies of display and mediation", "location": "London, UK", "slug": "restructuring-futures" }
   ],
   "recognition": [
     "Julie's Bicycle — Creative Climate Leadership programme",
-    "Centre for Sustainable Practice in the Arts — recognized for innovative approaches to artist-led climate response"
+    "Centre for Sustainable Practice in the Arts — recognized for innovative approaches to artist-led climate response",
+    "Canada Council for the Arts - Digital Greenhouse 2024",
+    "Canada Council for the Arts - Seed Grant 2024"
   ],
   "speaking": [
+        {
+      "venue": "Doing AI Differently — Culture x AI Workshop, ICML, Seoul (2026-07-10–11)",
+      "title": "Position Paper: Cultural Fermentation: on Craft, Ecology, Listening, and Safety",
+      "detail": "Respondent's Panel",
+      "href": "https://www.doingaidifferently.org/culturexaiworkshop"
+    },
     {
       "venue": "OCAD University, OnSite Gallery, Toronto (2026)",
       "title": "Cultural Fermentation & Other Messy Practices of Illegibility",
@@ -72,23 +80,21 @@
       "title": "Audience Engagement In The Digital Age"
     },
     {
-      "venue": "Doing AI Differently — Culture x AI Workshop, ICML, Seoul (2026-07-10–11)",
-      "title": "Cultural Fermentation: on Craft, Ecology, Listening, and Safety",
-      "href": "https://www.doingaidifferently.org/culturexaiworkshop"
-    },
-    {
       "venue": "Toronto Climate Week (2026-06-06)",
       "title": "how do we go FERAL?!",
-      "href": "https://luma.com/tocw-zu1d"
+      "detail": "co-delivery with Bianca Wylie and Xuan Ye"
     },
     {
       "venue": "Toronto Climate Week (2026-06-05)",
       "title": "Read Outside with Book Club Toronto",
-      "href": "https://luma.com/tocw-q1q4"
+      "detail": "co-delivery with Adrian Layne"
     },
     {
       "venue": "MUTEK Forum, Montréal (2025)",
-      "title": "Future Festivals: Goblin Market"
+      "title": "Manifesting Future Festivals: Accessible, Capable, Resilient",
+      "detail": "co-delivery with Rachel Weldon (Debaser / Pique), and Mira Silvers (FEMINAE NOX / FORT Agency)",
+      "href": "https://soundcloud.com/mutek_montreal/mutek-dialogues-manifesting-future-festivals-accessible-capable-resilient?in=mutek_montreal/sets/mutek-dialogues-forum"
+
     },
     {
       "venue": "SAT Symposium ArtIA, Montréal (2025)",
