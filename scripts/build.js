@@ -40,11 +40,26 @@ function writeFile(relPath, content) {
 }
 
 function copyStatic() {
-  fs.rmSync(OUT, { recursive: true, force: true });
+  // Wipe dist/ first so a build never leaves behind a stale page from an
+  // entry that's since been unpublished or renamed. Some restricted
+  // environments (e.g. a sandboxed file bridge) refuse to delete files
+  // that already exist there even with `force: true` — rather than crash
+  // the whole build over that, warn and fall back to overwriting in place.
+  // Every real target (CI, a normal terminal) has full permission here and
+  // gets the clean wipe as before.
+  try {
+    fs.rmSync(OUT, { recursive: true, force: true });
+  } catch (err) {
+    console.warn(
+      `  ! couldn't fully clear ${path.relative(ROOT, OUT)} (${err.code || err.message}) — ` +
+        `continuing without wiping it first. A stale page from a since-unpublished entry ` +
+        `may linger; safe to ignore unless that matters right now.`
+    );
+  }
   fs.mkdirSync(OUT, { recursive: true });
   ['css', 'assets'].forEach((dir) => {
     const src = path.join(ROOT, dir);
-    if (fs.existsSync(src)) fs.cpSync(src, path.join(OUT, dir), { recursive: true });
+    if (fs.existsSync(src)) fs.cpSync(src, path.join(OUT, dir), { recursive: true, force: true });
   });
   ['.nojekyll', 'CNAME'].forEach((file) => {
     const src = path.join(ROOT, file);
