@@ -77,12 +77,127 @@ function renderShell(title, description, bodyHtml) {
   });
 }
 
+// --- Pass 1: load every section and figure out which entries will actually
+// get a page, before writing anything. This lets entry pages link to each
+// other by slug (see `relatedSlugs`) instead of just printing a bare slug.
+const sectionData = SECTIONS.map(({ file, dir, label }) => {
+  const all = readJSON(file);
+  const entries = all.filter((e) => e.published);
+  return { file, dir, label, all, entries };
+});
+
+const slugIndex = new Map(); // slug -> { title, url } — published entries only, safe to link to.
+sectionData.forEach(({ dir, entries }) => {
+  entries.forEach((e) => {
+    slugIndex.set(e.slug, { title: e.title, url: `/${dir}/${e.slug}.html` });
+  });
+});
+
+// Every entry regardless of published state, so the CV's Projects/Residencies
+// lists (and relatedSlugs) can still show a real title + role for a draft
+// entry — just without a working link until it's published.
+const allIndex = new Map(); // slug -> { title, role, url, published, dir, label }
+sectionData.forEach(({ dir, label, all }) => {
+  all.forEach((e) => {
+    allIndex.set(e.slug, {
+      title: e.title,
+      role: Array.isArray(e.role) ? e.role.join(', ') : e.role,
+      url: `/${dir}/${e.slug}.html`,
+      published: !!e.published,
+      dir,
+      label,
+    });
+  });
+});
+
+// Looks up a slug against every entry (draft or live). Returns undefined if
+// the slug doesn't match anything — callers fall back to printing the raw
+// slug in that case, which is a visible signal that a reference is stale.
+function resolveSlug(slug) {
+  return allIndex.get(slug);
+}
+
+// Renders every optional structured field an entry might carry
+// (role, status, venue, type, collaborators, credits, editions,
+// upcomingEvents, links, images, relatedSlugs) beyond the free-text
+// body/description — so content that's populated in data/*.json actually
+// shows up on the page instead of only being used in the card excerpt.
+function extraMeta(entry) {
+  const parts = [];
+
+  // subtitle/DATE already shows entry.subtitle || entry.client || entry.venue —
+  // don't repeat whichever of those got used there.
+  const subtitleField = entry.subtitle ? 'subtitle' : entry.client ? 'client' : entry.venue ? 'venue' : null;
+
+  const role = Array.isArray(entry.role) ? entry.role.join(', ') : entry.role;
+  if (role) parts.push(`<p class="meta"><strong>Role:</strong> ${role}</p>`);
+
+  if (entry.status) parts.push(`<p class="meta"><strong>Status:</strong> ${entry.status}</p>`);
+  if (entry.client && subtitleField !== 'client') parts.push(`<p class="meta"><strong>Client:</strong> ${entry.client}</p>`);
+  if (entry.venue && subtitleField !== 'venue') parts.push(`<p class="meta"><strong>Venue:</strong> ${entry.venue}</p>`);
+  if (entry.type) parts.push(`<p class="meta"><strong>Type:</strong> ${entry.type}</p>`);
+
+  if (entry.collaborators && entry.collaborators.length) {
+    parts.push(`<p class="meta"><strong>Collaborators:</strong> ${entry.collaborators.join(', ')}</p>`);
+  }
+  if (entry.credits) parts.push(`<p class="meta"><strong>Credits:</strong> ${entry.credits}</p>`);
+
+  if (entry.editions && entry.editions.length) {
+    parts.push(
+      `<div class="editions"><strong>Editions</strong><ul>${entry.editions
+        .map((e) => `<li>${e}</li>`)
+        .join('')}</ul></div>`
+    );
+  }
+
+  if (entry.upcomingEvents && entry.upcomingEvents.length) {
+    parts.push(
+      `<div class="upcoming"><strong>Upcoming</strong><ul>${entry.upcomingEvents
+        .map((ev) => {
+          const label = ev.href ? `<a href="${ev.href}">${ev.label}</a>` : ev.label;
+          return `<li>${ev.date ? `${ev.date} — ` : ''}${label}</li>`;
+        })
+        .join('')}</ul></div>`
+    );
+  }
+
+  if (entry.links && entry.links.length) {
+    parts.push(
+      `<div class="links"><strong>Links</strong><ul>${entry.links
+        .map((l) => `<li><a href="${l.href}">${l.label}</a></li>`)
+        .join('')}</ul></div>`
+    );
+  }
+
+  // `embed` (e.g. Cultural Technologies Lab's LUMA snippet) is `null` in every
+  // entry today — Luisa hasn't supplied markup yet — so this is currently a
+  // no-op, but wiring it in now means a future embed code just works without
+  // another build.js change.
+  if (entry.embed) parts.push(`<div class="embed">${entry.embed}</div>`);
+
+  if (entry.relatedSlugs && entry.relatedSlugs.length) {
+    parts.push(
+      `<p class="meta"><strong>Related:</strong> ${entry.relatedSlugs
+        .map((slug) => {
+          const found = resolveSlug(slug);
+          if (!found) return slug;
+          return found.published ? `<a href="${found.url}">${found.title}</a>` : found.title;
+        })
+        .join(', ')}</p>`
+    );
+  }
+
+  if (entry.images && entry.images.length) {
+    parts.push(`<div class="images">${entry.images.map((src) => `<img src="${src}" alt="">`).join('')}</div>`);
+  }
+
+  return parts.join('\n');
+}
+
 console.log('Building luisaji.com →', OUT);
 copyStatic();
 
-SECTIONS.forEach(({ file, dir, label }) => {
-  const all = readJSON(file);
-  const entries = all.filter((e) => e.published);
+sectionData.forEach(({ file, dir, label, all, entries }) => {
   const skipped = all.length - entries.length;
   if (skipped > 0) console.log(`  (${file}: skipping ${skipped} unpublished entr${skipped === 1 ? 'y' : 'ies'})`);
 
@@ -95,6 +210,7 @@ SECTIONS.forEach(({ file, dir, label }) => {
       DATE: entry.date || entry.dates || '',
       TAGS: (entry.tags || []).join(', '),
       BODY: bodyHtml,
+      META_EXTRA: extraMeta(entry),
     });
     const page = renderShell(entry.title, entry.excerpt || entry.description, entryHtml);
     writeFile(`${dir}/${entry.slug}.html`, page);
@@ -116,16 +232,68 @@ SECTIONS.forEach(({ file, dir, label }) => {
 
 // CV page
 const list = (items) => `<ul>${(items || []).map((i) => `<li>${i}</li>`).join('')}</ul>`;
+
+// `speaking` entries may be plain strings or {venue, title, detail, href} objects —
+// support both so older/simpler data still renders.
+const speakingList = () =>
+  `<ul>${(cv.speaking || [])
+    .map((s) => {
+      if (typeof s === 'string') return `<li>${s}</li>`;
+      const parts = [`<strong>${s.venue}</strong>`];
+      if (s.title) parts.push(`— “${s.title}”`);
+      if (s.detail) parts.push(`(${s.detail})`);
+      let line = parts.join(' ');
+      if (s.href) line += ` — <a href="${s.href}">link</a>`;
+      return `<li>${line}</li>`;
+    })
+    .join('')}</ul>`;
+
+// `projects` is a chronological index of slug references into
+// Programs/Strategy/Cultural Production (by year of initiation, newest
+// first) — not duplicated text, so the title/role/link always match
+// whatever's actually in that section's own data file. An entry still in
+// draft (`published: false`) shows as plain text since there's no live page
+// to link to yet.
+const projectsList = () =>
+  `<ul>${(cv.projects || [])
+    .map((p) => {
+      const found = resolveSlug(p.slug);
+      if (!found) return `<li>${p.year} | ${p.slug} (unresolved slug)</li>`;
+      const label = found.role ? `${found.title} — ${found.role}` : found.title;
+      const text = found.published ? `<a href="${found.url}">${label}</a>` : label;
+      return `<li>${p.year} | ${text}</li>`;
+    })
+    .join('')}</ul>`;
+
+// `residencies` entries may be plain strings (legacy) or
+// {date, entry, location, slug?} objects — the optional `slug` cross-links
+// to the Programs/Strategy/Cultural Production entry the residency belongs
+// to (e.g. When Spiders Spin Dusk), same draft/live rule as projectsList.
+const residenciesList = () =>
+  `<ul>${(cv.residencies || [])
+    .map((r) => {
+      if (typeof r === 'string') return `<li>${r}</li>`;
+      const found = r.slug ? resolveSlug(r.slug) : null;
+      const entryText = found
+        ? found.published
+          ? `<a href="${found.url}">${r.entry}</a>`
+          : r.entry
+        : r.entry;
+      return `<li>${r.date} | ${entryText}, ${r.location}</li>`;
+    })
+    .join('')}</ul>`;
+
 const cvHtml = `
   <h1>CV</h1>
   <section>${marked.parse(cv.bio || '')}</section>
   <h2>Education</h2>${list(cv.education)}
   <h2>Roles</h2>${list(cv.roles)}
-  <h2>Experience</h2>${list(cv.experience)}
-  <h2>Residencies</h2>${list(cv.residencies)}
+  <h2>Projects</h2>${projectsList()}
+  <h2>Residencies</h2>${residenciesList()}
   <h2>Recognition</h2>${list(cv.recognition)}
-  <h2>Speaking</h2>${list(cv.speaking)}
+  <h2>Speaking</h2>${speakingList()}
   <h2>Publications</h2>${list(cv.publications)}
+  <h2>Experience</h2>${list(cv.experience)}
 `;
 writeFile('cv.html', renderShell('CV', 'Luisa Ji — CV', cvHtml));
 

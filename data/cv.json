@@ -1,34 +1,111 @@
 {
-  "bio": "REPLACE ME — bio text from /new-home-page, in Markdown",
+  "bio": "Luisa Ji is a creative strategist, cultural producer, and artist based in Canada. She is the Director of [UKAI Projects](https://www.ukaiprojects.com), an arts not-for-profit and platform where independent artists share infrastructure, resources, and public presence to advance their practices collectively. Through UKAI and independent collaborations, she conceives and stewards multi-site, touring initiatives at the intersection of ecology, technology, and cultural systems — working across residencies, public programs, and research with partners in Canada, Taiwan, Iceland, South Korea, and beyond. Her background in architectural design and spatial research informs her site-responsive, systems-oriented cultural practice.",
   "education": [
-    "M.Arch"
+    "B.AS M.Arch Carleton University School of Architecture"
   ],
   "roles": [
+    "Independent Cultural Producer, Artist",
     "Director, UKAI Projects",
-    "Independent Cultural Producer and Artist"
+    "Founder, NotesOnEnd"
   ],
-  "experience": [
-    "BEING Studio",
-    "The Bentway Toronto",
-    "City of Guelph",
-    "Code for Canada",
-    "International Labour Organization",
-    "University of Toronto Technoscience Research Unit"
+  "projects": [
+    { "year": "2025", "slug": "cultural-technologies-lab" },
+    { "year": "2025", "slug": "wishing-well" },
+    { "year": "2024", "slug": "goblin-market" },
+    { "year": "2024", "slug": "sediments" },
+    { "year": "2024", "slug": "when-spiders-spin-dusk" },
+    { "year": "2024", "slug": "shipwreck" },
+    { "year": "2023", "slug": "poetics-of-synthetic-language" },
+    { "year": "2023", "slug": "reconnections" },
+    { "year": "2022", "slug": "intelligent-terrain" },
+    { "year": "2022", "slug": "restructuring-futures" },
+    { "year": "2022", "slug": "beingverse" },
+    { "year": "2021", "slug": "directions-to-nowhere-in-particular" },
+    { "year": "2021", "slug": "museum-of-quietness" },
+    { "year": "2020–2021", "slug": "being-home" },
+    { "year": "2020–2021", "slug": "music-in-the-barns" },
+    { "year": "2020–2021", "slug": "new-not-normal" }
   ],
   "residencies": [
-    "REPLACE ME — pull the full list from /new-home-page (Hsinchu, SÍM Reykjavik, Poetics of Synthetic Language in Milan, Pervasive Media Studio in Bristol, etc.), with years"
+    { "date": "2025", "entry": "Hsinchu City Art Site of Railway Warehouse Residency", "location": "Hsinchu, Taiwan" },
+    { "date": "2024", "entry": "When Spiders Spin Dusk — residency at Ferme Lanthorn", "location": "Wakefield, Quebec", "slug": "when-spiders-spin-dusk" },
+    { "date": "2024", "entry": "SÍM Residency", "location": "Reykjavik, Iceland" },
+    { "date": "2023", "entry": "Poetics of Synthetic Language Residency", "location": "Milan, Italy", "slug": "poetics-of-synthetic-language" },
+    { "date": "2023", "entry": "Pervasive Media Studio Residency", "location": "Watershed, Bristol, UK" },
+    { "date": "2022", "entry": "Restructuring Futures — mobile strategies of display and mediation", "location": "London, UK", "slug": "restructuring-futures" },
+    { "date": "2021", "entry": "Museum of Quietness", "location": "THEMUSEUM, Kitchener, Canada", "slug": "museum-of-quietness" }
   ],
   "recognition": [
     "Julie's Bicycle — Creative Climate Leadership programme",
-    "Centre for Sustainable Practice in the Arts"
+    "Centre for Sustainable Practice in the Arts — recognized for innovative approaches to artist-led climate response"
   ],
   "speaking": [
-    "OCAD University (2026)",
-    "Seoul Museum of Art (2026)",
-    "Toronto Metropolitan University (2026)"
+    {
+      "venue": "OCAD University, OnSite Gallery, Toronto (2026)",
+      "title": "Cultural Fermentation & Other Messy Practices of Illegibility",
+      "detail": "co-delivery with Benjamin Lappalainen",
+      "href": "https://www.ocadu.ca/events-and-exhibitions/cultural-fermentation-other-messy-practices-illegibility"
+    },
+    {
+      "venue": "Seoul Museum of Art, Buk-Seoul Museum of Art (2026)",
+      "title": "Crosswalk: On the Practice of the Auditory Ecosystem",
+      "detail": "talk program with Sunjeong Hwang and Gyuchul Moon",
+      "href": "https://sema.seoul.go.kr/kr/whatson/education/detail?acadmyEeNo=1514289"
+    },
+    {
+      "venue": "Toronto Metropolitan University, Creative AI Symposium (2026)",
+      "title": "Call of the Void",
+      "href": "https://www.torontomu.ca/the-creative-school/creative-ai-hub/symposium-/"
+    },
+    {
+      "venue": "George Brown Polytechnic, 34th Annual Labour Fair (2026)",
+      "title": "Intelligent Terrain: AI & Ecology Under Digital Capitalism"
+    },
+    {
+      "venue": "Agnes Etherington Art Centre, Queen's University (2026)",
+      "title": "Agnes Bytes: Navigating Digital Capitalism",
+      "detail": "with Tristan Sauer",
+      "href": "https://agnes.queensu.ca/participate/talks-tours-events/agnes-bytes-digital-capitalism/"
+    },
+    {
+      "venue": "Galeries Ontario / Ontario Galleries (2026)",
+      "title": "Audience Engagement In The Digital Age"
+    },
+    {
+      "venue": "Doing AI Differently — Culture x AI Workshop, ICML, Seoul (2026-07-10–11)",
+      "title": "Cultural Fermentation: on Craft, Ecology, Listening, and Safety",
+      "href": "https://www.doingaidifferently.org/culturexaiworkshop"
+    },
+    {
+      "venue": "Toronto Climate Week (2026-06-06)",
+      "title": "how do we go FERAL?!",
+      "href": "https://luma.com/tocw-zu1d"
+    },
+    {
+      "venue": "Toronto Climate Week (2026-06-05)",
+      "title": "Read Outside with Book Club Toronto",
+      "href": "https://luma.com/tocw-q1q4"
+    },
+    {
+      "venue": "MUTEK Forum, Montréal (2025)",
+      "title": "Future Festivals: Goblin Market"
+    },
+    {
+      "venue": "SAT Symposium ArtIA, Montréal (2025)",
+      "title": "Ecological Metaphors and AI in Arts Programming"
+    }
   ],
   "publications": [
-    "Ways of Meaning (2027, forthcoming)",
-    "Why AI Art? (2024, contribution)"
+    "\"Cache\" — essay in Ways of Meaning: Terms and Conditions for Art and Technology, University of Manchester Press (forthcoming 2027, Editors: Sarah Cook and Charlotte Kent)",
+    "Intelligent Terrain: More-Than-Human-AI (forthcoming 2026, Editor: Willem Deisinger)",
+    "Future Festivals: Goblin Market, HOLO / MUTEK (2025)",
+    "Why AI Art? Why Art for AI, Canada Council for the Arts / Cultivate Grant (2024, co-authors: Caroline Sinders, Antonia Valencia, Jerrold McGrath, and Kasra Goodarznezhad)",
+    "Poetics of Synthetic Language: \"Pigeon Time\" (2023)"
+  ],
+  "experience": [
+    "Nomadic Labs — Co-founder, Lead Designer (2017–2021)",
+    "Milieu — Co-founder, Placemaking Initiative Designer (2015–2017); Entrée Nord Nouméa revitalization masterplan by Aziza Chaouni Projects and Ville de Nouméa — digital community engagement and app design for participatory urban intervention and placemaking",
+    "City of Guelph Civic Accelerator — working with municipal planning and GIS departments to design and develop digital tools for involving citizens in the process of urban design and planning",
+    "Percy Station, Ottawa — designed the architectural concept and details, and supported fundraising, for turning a public parking lot into temporary park space"
   ]
 }

@@ -1,19 +1,21 @@
 {
   "nav": [
     { "label": "CV", "href": "/cv.html" },
-    { "label": "Writing", "href": "/writing/" },
-    { "label": "Programs", "href": "/programs/" },
-    { "label": "Strategy", "href": "/strategy/" },
-    { "label": "Cultural Production", "href": "/cultural-production/" }
+    { "label": "Writing", "href": "/writing/index.html" },
+    { "label": "Programs", "href": "/programs/index.html" },
+    { "label": "Strategy", "href": "/strategy/index.html" },
+    { "label": "Cultural Production", "href": "/cultural-production/index.html" }
   ],
   "social": [
     { "label": "Instagram", "href": "https://www.instagram.com/luisalyji/" },
     { "label": "LinkedIn", "href": "https://www.linkedin.com/in/luisa-ji/" },
-    { "label": "Goblin Market", "href": "https://goblin-market.ghost.io" }
+    { "label": "Goblin Market", "href": "https://goblin-market.ghost.io" },
+    { "label": "UKAI Projects", "href": "https://www.ukaiprojects.com" },
+    { "label": "Glass Objects", "href": "https://luluissaa.github.io/ai-na/" }
   ],
   "contactEmail": "studio@ukaiprojects.com",
   "home": {
-    "headline": "REPLACE ME — homepage headline, from /new-home-page",
-    "intro": "REPLACE ME — homepage intro copy, from /new-home-page (Markdown ok)"
+    "headline": "Luisa Ji",
+    "intro": "An artist, designer, and strategist who produces works and programs that seek to unflatten our experiences of the world we inhabit."
   }
 }

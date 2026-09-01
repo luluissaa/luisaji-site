@@ -2,22 +2,33 @@
   {
     "slug": "intelligent-terrain",
     "title": "Intelligent Terrain",
-    "dates": "2021–ongoing",
-    "status": "current",
-    "description": "REPLACE ME — program description",
-    "editions": [],
-    "links": [],
+    "role": "Lead Producer, Researcher, Curriculum Designer",
+    "dates": "2022–ongoing",
+    "status": "available for co-production",
+    "description": "The program centres on land-based knowledge, patterns of natural ecology, and digital landscapes to explore the implications of algorithmic systems, automation, machine sensing, and displacement, exile, and migration across digital and physical borders. Intelligent Terrain is an exploration of art-based land regeneration and ecological storytelling. Co-produced with UKAI Projects and Ferme Lanthorn (Wakefield, Quebec); funded by the Canada Council for the Arts Digital Greenhouse.",
+    "editions": [
+      "Cohort 2022",
+      "Cohort 2024 Spring",
+      "Cohort 2024 Fall (Canada–Korea co-production)",
+      "Call of the Void — abridged online program, 2025–ongoing"
+    ],
+    "links": [
+      { "label": "Read more (UKAI Projects case study)", "href": "https://www.ukaiprojects.com/case-studies/intelligent-terrain" }
+    ],
     "images": [],
     "published": false
   },
   {
     "slug": "goblin-market",
     "title": "Goblin Market",
-    "dates": "2023–ongoing",
-    "status": "current",
-    "description": "REPLACE ME — program description; absorbs the homepage's \"Prototyping Alternative Arts Marketplace\" mention rather than that getting its own entry",
-    "editions": ["Toronto (2025)", "Montréal", "Hsinchu, Taiwan"],
+    "role": "Lead Producer",
+    "dates": "2024–ongoing",
+    "status": "available for co-production",
+    "description": "A post-scarcity festival framework that reappropriates \"rituals of commerce\" for fostering generosity, collaboration, and transformation. Organized around three pillars — Circular Mentorship, Prototyping Abundance (this is also where the homepage's \"Prototyping Alternative Arts Marketplace\" mention belongs, rather than a separate entry), and Art in Every Neighbourhood. Co-creators include Abbey Richens, Adrian Layner, Amelia Winger-Bearskin, annais linares, Emil Woudenberg, Luisa Ji, and Tricia Enns.",
+    "editions": ["Toronto 2025", "Montréal 2025", "Hsinchu, Taiwan 2025", "Halifax 2026"],
     "links": [
+      { "label": "luisaji.com/goblin-market", "href": "https://luisaji.com/goblin-market" },
+      { "label": "HOLO Magazine × MUTEK — Future Festivals", "href": "https://www.holo.mg/dossiers/future-festivals-field-guide/" },
       { "label": "Instagram", "href": "https://www.instagram.com/goblins_everywhere" },
       { "label": "Newsletter", "href": "https://goblin-market.ghost.io" }
     ],
@@ -27,13 +38,47 @@
   {
     "slug": "cultural-technologies-lab",
     "title": "Cultural Technologies Lab",
-    "dates": "REPLACE ME",
-    "status": "current",
-    "description": "A community of practice for cultural resilience. REPLACE ME with fuller description from Luisa.",
+    "role": "Co-Lead",
+    "dates": "2025–ongoing",
+    "status": "available for institutional partnership",
+    "description": "A community of practice reclaiming culture as a dynamic force for resilience rather than as a passive reflection of existing power structures.",
+    "editions": [],
+    "links": [
+      { "label": "culturaltechnologieslab.org", "href": "https://www.culturaltechnologieslab.org" },
+      { "label": "UKAI Projects case study", "href": "https://www.ukaiprojects.com/case-studies/cultural-technologies-lab" }
+    ],
+    "upcomingEvents": [
+      { "label": "Read Outside with Book Club Toronto — Toronto Climate Week", "date": "2026-06-05", "href": "https://luma.com/tocw-q1q4" },
+      { "label": "how do we go FERAL?! — Toronto Climate Week", "date": "2026-06-06", "href": "https://luma.com/tocw-zu1d" }
+    ],
+    "images": [],
+    "embed": null,
+    "published": false
+  },
+  {
+    "slug": "poetics-of-synthetic-language",
+    "title": "Poetics of Synthetic Language",
+    "role": "Co-Producer, Contributor",
+    "dates": "2023",
+    "status": "completed",
+    "description": "A residency and experimental archive of artificial intelligence, large language models, and algorithmic systems, edited by Jerrold McGrath and Mida Fiore (Milan, Italy). Luisa's contribution to the archive includes the piece \"Pigeon Time\" (2023).",
+    "editions": [],
+    "links": [
+      { "label": "Read more (UKAI Projects archive)", "href": "https://archive.ukaiprojects.com/projects/poetics-of-synthetic-language/" }
+    ],
+    "images": [],
+    "published": false
+  },
+  {
+    "slug": "beingverse",
+    "title": "BEINGverse",
+    "role": "Program Designer, Facilitator",
+    "dates": "2022",
+    "status": "completed",
+    "description": "Arts mentorship program design and curation of an Augmented Reality community showcase, in collaboration with BEING Studio.",
     "editions": [],
     "links": [],
     "images": [],
-    "embed": null,
     "published": false
   }
 ]

@@ -5,9 +5,9 @@
     "subtitle": "Collaborator statement",
     "date": "2025-01",
     "tags": ["writing", "programs:intelligent-terrain"],
-    "excerpt": "REPLACE ME — one-line excerpt",
-    "body": "REPLACE ME — full essay text in Markdown",
-    "relatedSlugs": ["intelligent-terrain"],
+    "excerpt": "A collaborator's statement for an exhibition curated by Junghyun Kim in Seoul, South Korea, emerging from Intelligent Terrain — a speculative ecologies program centring on AI's entanglement with the landscape.",
+    "body": "[DRAFT — assembled from a summary of the live page, not the original wording. Pull the exact published text from Squarespace (/selected-works/spiraling-outwards) before publishing.]\n\nA collaborator's statement for an exhibition curated by Junghyun Kim in Seoul, South Korea. The project emerged from Intelligent Terrain, a speculative ecologies program centring on AI's entanglement with the landscape, which Luisa has developed as UKAI Projects' Studio Director since 2021.",
+    "relatedSlugs": ["intelligent-terrain", "when-spiders-spin-dusk"],
     "published": false
   },
   {
@@ -16,9 +16,20 @@
     "subtitle": "Curatorial statement",
     "date": "2024-10",
     "tags": ["writing", "curatorial", "ecological-ai", "cultural-production:when-spiders-spin-dusk"],
-    "excerpt": "REPLACE ME — one-line excerpt",
-    "body": "REPLACE ME — full curatorial statement in Markdown",
-    "relatedSlugs": [],
+    "excerpt": "A curatorial statement for an exhibition in Toronto (Oct 22–27, 2024) featuring six Canadian and South Korean artists exploring the tangles of organic, mechanical, and artificial intelligences.",
+    "body": "[DRAFT — assembled from a summary of the live page, not the original wording. Pull the exact published text from Squarespace (/selected-works/when-spiders-spin-dusk-carnival-shipwreck) before publishing.]\n\nA curatorial statement and exhibition provocation for Toronto, Canada, addressing the need to reimagine our relationships with the world around us — critiquing modern abstractions and linear narratives while questioning how communities might move forward differently. The exhibition features six Canadian and South Korean artists whose practices examine tangles of organic, mechanical, and artificial intelligences, developed through collaborative field studies at a regenerative farm in Quebec.",
+    "relatedSlugs": ["when-spiders-spin-dusk"],
+    "published": false
+  },
+  {
+    "slug": "cultural-fermentation",
+    "title": "Cultural Fermentation: on Craft, Ecology, Listening, and Safety",
+    "subtitle": "Workshop abstract — Culture x AI Workshop, Doing AI Differently, ICML 2026",
+    "date": "2026-07-10",
+    "tags": ["writing", "speaking", "programs:cultural-technologies-lab"],
+    "excerpt": "Arts and cultural programming constitute core safety infrastructure — the generative prior condition without which governance cannot take root in communities — rather than a supplement to technical governance.",
+    "body": "Presented July 10–11, 2026 at the Doing AI Differently Culture x AI Workshop, held alongside the International Conference on Machine Learning (ICML) in Seoul, South Korea.\n\n**Abstract:** Conversations around AI safety tend to centre on regulatory frameworks, technical specifications, and institutional compliance. Through the perspective of arts and cultural production, we argue that we urgently need approaches centred on developing public imagination and localized capacity to steward AI infrastructures and generate shared knowledge. Drawing on Soetsu Yanagi's Mingei philosophy, Lambert Zuidervaart's concept of imaginative disclosure, and ecological models of intelligence developed through arts practices, Cultural Fermentation proposes that arts and cultural programming constitute core safety infrastructure — the generative prior condition without which governance cannot take root in communities — rather than as a supplement to technical governance.",
+    "relatedSlugs": ["cultural-technologies-lab"],
     "published": false
   },
   {
@@ -27,19 +38,19 @@
     "subtitle": "Research essay",
     "date": "2025-03",
     "tags": ["writing", "research", "programs:intelligent-terrain"],
-    "excerpt": "REPLACE ME — one-line excerpt",
-    "body": "REPLACE ME — full essay text in Markdown",
+    "excerpt": "A three-year cross-disciplinary program exploring how AI and technology can deepen ecological engagement rather than perpetuate extraction, examining colonial legacies embedded in mapping and data systems.",
+    "body": "[DRAFT — assembled from a summary of the live page, not the original wording. Pull the exact published text from Squarespace (/selected-works/intelligent-terrain-research) before publishing.]\n\nA three-year cross-disciplinary program exploring how AI and technology can deepen ecological engagement rather than perpetuate extraction. The initiative examines the colonial legacies embedded in mapping and data systems while investigating alternative technological approaches to environmental and cultural restoration. \"Just as we inhabit our physical bodies, we inhabit landscapes and live within and from them.\"",
     "relatedSlugs": ["intelligent-terrain"],
     "published": false
   },
   {
     "slug": "restructuring-futures-essay",
-    "title": "REPLACE ME — new title (was the auto-generated slug blog-post-title-four-h9m3l; old URL is retired, not redirected)",
+    "title": "Restructuring Futures: Notes on Asynchronous Creative Networks",
     "subtitle": "Design-research essay",
     "date": "2021",
     "tags": ["writing", "strategy:restructuring-futures"],
-    "excerpt": "REPLACE ME — one-line excerpt",
-    "body": "REPLACE ME — full essay text in Markdown",
+    "excerpt": "A speculative worldbuilding project questioning technology's role in efficiency and scale, and how asynchronous creative networks can sustain artistic practice outside extractive systems.",
+    "body": "[DRAFT — assembled from a summary of the live page, not the original wording. Pull the exact published text from Squarespace (/selected-works/blog-post-title-four-h9m3l) before publishing — note the old URL is retired, not redirected, so this is the only place the essay text needs to be recovered from.]\n\nA speculative worldbuilding project questioning technology's role in efficiency and scale. The essay explores how asynchronous creative networks — distributed, nonlinear, and deeply contextual — can be structured to sustain artistic practice outside of extractive systems, drawing on work with Hypha Worker Cooperative and UKAI Projects between 2021 and 2023.",
     "relatedSlugs": ["restructuring-futures"],
     "published": false
   }

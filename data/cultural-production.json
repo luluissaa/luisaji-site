@@ -2,23 +2,90 @@
   {
     "slug": "museum-of-quietness",
     "title": "Museum of Quietness",
+    "role": ["Public Engagement Program Designer", "Facilitator"],
     "dates": "2021",
-    "venue": "THEMUSEUM, Kitchener, Ontario",
+    "venue": "THEMUSEUM, Kitchener, Ontario — presented within \"SONICA – A Sound Experience\"",
     "type": "Participatory installation",
-    "description": "REPLACE ME — work description",
+    "description": "[NOTE: Luisa's latest CV lists a 2021 THEMUSEUM project with Kanika Gupta under the title \"Sound Print,\" linking to THEMUSEUM's \"SONICA – A Sound Experience\" exhibition page. This is very likely the same work as \"Museum of Quietness\" from the old Squarespace site, but confirm which title is current before publishing.]\n\nA participatory art experience inviting audiences to examine the auditory and visual noise in their surroundings, then design their own artifacts imagining a quieter future and their role in creating it. Presented in person at THEMUSEUM and virtually over Zoom for pandemic-isolated participants.",
     "collaborators": ["Kanika Gupta"],
     "images": [],
+    "links": [
+      { "label": "SONICA – A Sound Experience, THEMUSEUM", "href": "https://themuseum.ca/exhibitions/current-exhibitions/sonica/" }
+    ],
     "published": false
   },
   {
     "slug": "one-day-they-will-return",
     "title": "One Day They Will Return",
-    "dates": "ongoing",
+    "dates": "ongoing (residencies Feb–May 2024, June 2024, July 2024)",
     "venue": "REPLACE ME",
     "type": "Installation / sound / speculative fiction",
-    "description": "REPLACE ME — work description",
+    "description": "[NOTE: this project does not appear in Luisa's latest CV paste — confirm it should still be included before publishing.]\n\nA speculative fiction project imagining a world where birds mysteriously vanish, prompting humanity to build elaborate nests decorated with bird memorabilia in hopes of their return — exploring environmental collapse, collective denial, and humanity's attempts to restore what has been lost through sculptural installations, sonic environments, and immersive storytelling.",
     "collaborators": [],
     "images": [],
+    "published": false
+  },
+  {
+    "slug": "wishing-well",
+    "title": "Wishing Well",
+    "role": ["Artist"],
+    "dates": "2025",
+    "venue": "Pop-up: General Village, Hsinchu, Taiwan",
+    "type": "Participatory soundscape / live sonification",
+    "description": "A participatory soundscape and live sonification work. Materials: borrowed objects from local shops, reclaimed roof tiles from the Hsinchu City Railway Warehouse, contact mics, and a bio-sonification module. Sound design by Luisa Ji and Benjamin Lappalainen; production support from Husna Farooqui.",
+    "collaborators": ["Benjamin Lappalainen", "Husna Farooqui"],
+    "images": [],
+    "status": "available for public activation commission",
+    "published": false
+  },
+  {
+    "slug": "sediments",
+    "title": "Sediments",
+    "role": ["Artist"],
+    "dates": "2024",
+    "venue": "Residency: DAÏMÔN / Radio-Hull; Performance: Place-des-artistes de Farrellton",
+    "type": "Environmental sonification",
+    "description": "Environmental sonification and collected soundscapes derived from local ecosystems near Wakefield, Quebec. Performed with Hooria Rahimi at River Room, a spatial installation by Rahimi.",
+    "collaborators": ["Hooria Rahimi"],
+    "images": [],
+    "links": [
+      { "label": "Documentation", "href": "https://youtu.be/BgfNaxW6JLw" }
+    ],
+    "status": "completed",
+    "published": false
+  },
+  {
+    "slug": "when-spiders-spin-dusk",
+    "title": "When Spiders Spin Dusk",
+    "role": ["Co-Producer", "Program Facilitator"],
+    "dates": "2024 research & creation; exhibitions 2024–2025",
+    "venue": "Research and Creation: June–September 2024, residency at Ferme Lanthorn, Wakefield, Quebec; Exhibitions: Toronto 2024 (The Bridge), Seoul 2025 (Coréana Museum of Art, Space*c)",
+    "type": "International co-produced exhibition / research program",
+    "description": "[NOTE: the Seoul venue (Coréana Museum of Art, Space*c) is carried over from an earlier scrape of Luisa's residencies list, not from her latest CV paste directly — confirm it's the correct Seoul exhibition venue before publishing.]\n\nA program design project — a residency at Ferme Lanthorn that resulted in a duo-city exhibition. Six artists based in Canada and Korea jointly researched and developed works on themes concerning geological shifts, cultural perspectives on AI, and technology's relationship to the more-than-human world. International co-production with Junghyun Kim, with funding from the Canada Council for the Arts and Arts Council Korea. See the two companion Writing pieces (spiralling-outwards, carnival-of-shipwreck) rather than duplicating that text here.",
+    "collaborators": ["Junghyun Kim"],
+    "images": [],
+    "links": [
+      { "label": "Archive", "href": "https://www.whenspidersspindusk.com" },
+      { "label": "UKAI Projects case study", "href": "https://www.ukaiprojects.com/case-studies/when-spiders-spin-dusk" }
+    ],
+    "status": "completed",
+    "published": false
+  },
+  {
+    "slug": "shipwreck",
+    "title": "Shipwreck",
+    "role": ["Co-Producer"],
+    "dates": "2024–2025",
+    "venue": "Touring: Reykjavik 2024, Montréal 2025",
+    "type": "Durational presentation format",
+    "description": "A durational presentation format centring on the question of \"how do we make a home among ruins?\"",
+    "collaborators": [],
+    "images": [],
+    "links": [
+      { "label": "Documentation (Reykjavik)", "href": "https://www.youtube.com/watch?v=vz-AjPZZ4os" },
+      { "label": "UKAI Projects case study", "href": "https://www.ukaiprojects.com/case-studies/shipwreck" }
+    ],
+    "status": "completed",
     "published": false
   }
 ]
