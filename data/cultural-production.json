@@ -1,0 +1,24 @@
+[
+  {
+    "slug": "museum-of-quietness",
+    "title": "Museum of Quietness",
+    "dates": "2021",
+    "venue": "THEMUSEUM, Kitchener, Ontario",
+    "type": "Participatory installation",
+    "description": "REPLACE ME — work description",
+    "collaborators": ["Kanika Gupta"],
+    "images": [],
+    "published": false
+  },
+  {
+    "slug": "one-day-they-will-return",
+    "title": "One Day They Will Return",
+    "dates": "ongoing",
+    "venue": "REPLACE ME",
+    "type": "Installation / sound / speculative fiction",
+    "description": "REPLACE ME — work description",
+    "collaborators": [],
+    "images": [],
+    "published": false
+  }
+]

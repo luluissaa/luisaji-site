@@ -1,0 +1,39 @@
+[
+  {
+    "slug": "intelligent-terrain",
+    "title": "Intelligent Terrain",
+    "dates": "2021–ongoing",
+    "status": "current",
+    "description": "REPLACE ME — program description",
+    "editions": [],
+    "links": [],
+    "images": [],
+    "published": false
+  },
+  {
+    "slug": "goblin-market",
+    "title": "Goblin Market",
+    "dates": "2023–ongoing",
+    "status": "current",
+    "description": "REPLACE ME — program description; absorbs the homepage's \"Prototyping Alternative Arts Marketplace\" mention rather than that getting its own entry",
+    "editions": ["Toronto (2025)", "Montréal", "Hsinchu, Taiwan"],
+    "links": [
+      { "label": "Instagram", "href": "https://www.instagram.com/goblins_everywhere" },
+      { "label": "Newsletter", "href": "https://goblin-market.ghost.io" }
+    ],
+    "images": [],
+    "published": false
+  },
+  {
+    "slug": "cultural-technologies-lab",
+    "title": "Cultural Technologies Lab",
+    "dates": "REPLACE ME",
+    "status": "current",
+    "description": "A community of practice for cultural resilience. REPLACE ME with fuller description from Luisa.",
+    "editions": [],
+    "links": [],
+    "images": [],
+    "embed": null,
+    "published": false
+  }
+]

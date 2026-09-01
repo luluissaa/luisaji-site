@@ -1,0 +1,64 @@
+[
+  {
+    "slug": "restructuring-futures",
+    "title": "Restructuring Futures",
+    "client": "Hypha Worker Co-op / UKAI Projects",
+    "dates": "2021–2023",
+    "role": ["Design Research", "Worldbuilding"],
+    "description": "REPLACE ME — case study description",
+    "credits": "REPLACE ME",
+    "links": [],
+    "images": [],
+    "published": false
+  },
+  {
+    "slug": "directions-to-nowhere-in-particular",
+    "title": "Directions to Nowhere in Particular",
+    "client": "The Bentway / From Later",
+    "dates": "2021",
+    "role": ["Digital Design", "Interactive Media"],
+    "description": "REPLACE ME — case study description",
+    "credits": "REPLACE ME",
+    "links": [],
+    "images": [],
+    "published": false
+  },
+  {
+    "slug": "new-not-normal",
+    "title": "New Not Normal",
+    "client": "FERMENT Artist Residency",
+    "dates": "2021",
+    "role": ["Visual Design", "Digital Strategy", "Creative Direction"],
+    "description": "REPLACE ME — case study description",
+    "credits": "REPLACE ME",
+    "links": [],
+    "images": [],
+    "published": false
+  },
+  {
+    "slug": "ferment-ai",
+    "title": "Ferment AI",
+    "client": "REPLACE ME",
+    "dates": "2021",
+    "role": ["Brand Identity", "Content Strategy"],
+    "description": "REPLACE ME — case study description",
+    "credits": "REPLACE ME",
+    "links": [],
+    "images": [],
+    "published": false
+  },
+  {
+    "slug": "ukai-projects",
+    "title": "UKAI Projects",
+    "client": "UKAI Projects",
+    "dates": "REPLACE ME",
+    "role": ["Brand Strategy", "Creative Direction", "Design"],
+    "description": "REPLACE ME — case study description",
+    "credits": "Brand Strategy, Creative Direction, and Design by Luisa Ji and Nour Bishouty",
+    "links": [
+      { "label": "UKAI Projects", "href": "https://www.ukaiprojects.com" }
+    ],
+    "images": [],
+    "published": false
+  }
+]

@@ -1,0 +1,34 @@
+{
+  "bio": "REPLACE ME — bio text from /new-home-page, in Markdown",
+  "education": [
+    "M.Arch"
+  ],
+  "roles": [
+    "Director, UKAI Projects",
+    "Independent Cultural Producer and Artist"
+  ],
+  "experience": [
+    "BEING Studio",
+    "The Bentway Toronto",
+    "City of Guelph",
+    "Code for Canada",
+    "International Labour Organization",
+    "University of Toronto Technoscience Research Unit"
+  ],
+  "residencies": [
+    "REPLACE ME — pull the full list from /new-home-page (Hsinchu, SÍM Reykjavik, Poetics of Synthetic Language in Milan, Pervasive Media Studio in Bristol, etc.), with years"
+  ],
+  "recognition": [
+    "Julie's Bicycle — Creative Climate Leadership programme",
+    "Centre for Sustainable Practice in the Arts"
+  ],
+  "speaking": [
+    "OCAD University (2026)",
+    "Seoul Museum of Art (2026)",
+    "Toronto Metropolitan University (2026)"
+  ],
+  "publications": [
+    "Ways of Meaning (2027, forthcoming)",
+    "Why AI Art? (2024, contribution)"
+  ]
+}

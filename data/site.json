@@ -1,0 +1,19 @@
+{
+  "nav": [
+    { "label": "CV", "href": "/cv.html" },
+    { "label": "Writing", "href": "/writing/" },
+    { "label": "Programs", "href": "/programs/" },
+    { "label": "Strategy", "href": "/strategy/" },
+    { "label": "Cultural Production", "href": "/cultural-production/" }
+  ],
+  "social": [
+    { "label": "Instagram", "href": "https://www.instagram.com/luisalyji/" },
+    { "label": "LinkedIn", "href": "https://www.linkedin.com/in/luisa-ji/" },
+    { "label": "Goblin Market", "href": "https://goblin-market.ghost.io" }
+  ],
+  "contactEmail": "studio@ukaiprojects.com",
+  "home": {
+    "headline": "REPLACE ME — homepage headline, from /new-home-page",
+    "intro": "REPLACE ME — homepage intro copy, from /new-home-page (Markdown ok)"
+  }
+}

@@ -1,0 +1,46 @@
+[
+  {
+    "slug": "spiralling-outwards",
+    "title": "When Spiders Spin Dusk: Spiralling Outwards",
+    "subtitle": "Collaborator statement",
+    "date": "2025-01",
+    "tags": ["writing", "programs:intelligent-terrain"],
+    "excerpt": "REPLACE ME — one-line excerpt",
+    "body": "REPLACE ME — full essay text in Markdown",
+    "relatedSlugs": ["intelligent-terrain"],
+    "published": false
+  },
+  {
+    "slug": "carnival-of-shipwreck",
+    "title": "When Spiders Spin Dusk: Carnival of Shipwreck",
+    "subtitle": "Curatorial statement",
+    "date": "2024-10",
+    "tags": ["writing", "curatorial", "ecological-ai", "cultural-production:when-spiders-spin-dusk"],
+    "excerpt": "REPLACE ME — one-line excerpt",
+    "body": "REPLACE ME — full curatorial statement in Markdown",
+    "relatedSlugs": [],
+    "published": false
+  },
+  {
+    "slug": "feral-inquiries",
+    "title": "Intelligent Terrain: Feral Inquiries",
+    "subtitle": "Research essay",
+    "date": "2025-03",
+    "tags": ["writing", "research", "programs:intelligent-terrain"],
+    "excerpt": "REPLACE ME — one-line excerpt",
+    "body": "REPLACE ME — full essay text in Markdown",
+    "relatedSlugs": ["intelligent-terrain"],
+    "published": false
+  },
+  {
+    "slug": "restructuring-futures-essay",
+    "title": "REPLACE ME — new title (was the auto-generated slug blog-post-title-four-h9m3l; old URL is retired, not redirected)",
+    "subtitle": "Design-research essay",
+    "date": "2021",
+    "tags": ["writing", "strategy:restructuring-futures"],
+    "excerpt": "REPLACE ME — one-line excerpt",
+    "body": "REPLACE ME — full essay text in Markdown",
+    "relatedSlugs": ["restructuring-futures"],
+    "published": false
+  }
+]
