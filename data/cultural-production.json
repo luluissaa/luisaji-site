@@ -11,7 +11,8 @@
     "venue": "THEMUSEUM, Kitchener, Ontario — presented within \"SONICA – A Sound Experience\"",
     "type": "Participatory installation",
     "collaborators": [
-      "Kanika Gupta"
+      "Kanika Gupta",
+      "Conor Byron"
     ],
     "images": [],
     "links": [
@@ -21,7 +22,7 @@
       }
     ],
     "published": true,
-    "description": "A participatory art experience inviting audiences to examine the auditory and visual noise in their surroundings, then design their own artifacts imagining a quieter future and their role in creating it. Presented in person at THEMUSEUM and virtually over Zoom for pandemic-isolated participants."
+    "description": "A participatory art experience inviting audiences to examine the auditory and visual noise in their surroundings, then design their own artifacts imagining a quieter future and their role in creating it. Presented in person at THEMUSEUM and virtually over Zoom for pandemic-isolated participants.\n\nOne of its activities, Sound Print, is an AR decibel meter that responds to environmental sound and changes the camera view according to the noise present. Creative coding by Conor Byron; UX by Luisa Ji."
   },
   {
     "cv_heading": "Selected artistic and cultural work presented to the public",
