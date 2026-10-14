@@ -9,31 +9,116 @@
     "Founder, NotesOnEnd"
   ],
   "projects": [
-    { "year": "2025", "slug": "cultural-technologies-lab" },
-    { "year": "2025", "slug": "wishing-well" },
-    { "year": "2024", "slug": "goblin-market" },
-    { "year": "2024", "slug": "sediments" },
-    { "year": "2024", "slug": "when-spiders-spin-dusk" },
-    { "year": "2024", "slug": "shipwreck" },
-    { "year": "2023", "slug": "poetics-of-synthetic-language" },
-    { "year": "2023", "slug": "reconnections" },
-    { "year": "2022", "slug": "intelligent-terrain" },
-    { "year": "2022", "slug": "restructuring-futures" },
-    { "year": "2022", "slug": "beingverse" },
-    { "year": "2021", "slug": "directions-to-nowhere-in-particular" },
-    { "year": "2021", "slug": "museum-of-quietness" },
-    { "year": "2020–2021", "slug": "being-home" },
-    { "year": "2020–2021", "slug": "music-in-the-barns" },
-    { "year": "2020–2021", "slug": "new-not-normal" }
+    {
+      "year": "2025",
+      "slug": "cultural-technologies-lab"
+    },
+    {
+      "year": "2025",
+      "slug": "wishing-well"
+    },
+    {
+      "year": "2024",
+      "slug": "goblin-market"
+    },
+    {
+      "year": "2024",
+      "slug": "sediments"
+    },
+    {
+      "year": "2024",
+      "slug": "carnival-of-shipwreck"
+    },
+    {
+      "year": "2024",
+      "slug": "when-spiders-spin-dusk"
+    },
+    {
+      "year": "2024",
+      "slug": "shipwreck"
+    },
+    {
+      "year": "2023",
+      "slug": "poetics-of-synthetic-language"
+    },
+    {
+      "year": "2023",
+      "slug": "reconnections"
+    },
+    {
+      "year": "2022",
+      "slug": "restructuring-futures"
+    },
+    {
+      "year": "2022",
+      "slug": "beingverse"
+    },
+    {
+      "year": "2021",
+      "slug": "intelligent-terrain"
+    },
+    {
+      "year": "2021",
+      "slug": "directions-to-nowhere-in-particular"
+    },
+    {
+      "year": "2021",
+      "slug": "museum-of-quietness"
+    },
+    {
+      "year": "2020–2021",
+      "slug": "being-home"
+    },
+    {
+      "year": "2020–2021",
+      "slug": "music-in-the-barns"
+    },
+    {
+      "year": "2020–2021",
+      "slug": "new-not-normal"
+    }
   ],
   "residencies": [
-    { "date": "2025", "entry": "Hsinchu City Artsite Railway Warehouse Residency — Accton Arts Foundation", "location": "Hsinchu, Taiwan" },
-    { "date": "2024", "entry": "When Spiders Spin Dusk — residency at Ferme Lanthorn", "location": "Wakefield, Quebec", "slug": "when-spiders-spin-dusk" },
-    { "date": "2024", "entry": "Radio-Hull Residency", "location": "Hull, Quebec", "slug": "sediments" },
-    { "date": "2024", "entry": "SÍM Residency", "location": "Reykjavik, Iceland", "slug": "shipwreck" },
-    { "date": "2023", "entry": "Poetics of Synthetic Language Residency", "location": "Milan, Italy", "slug": "poetics-of-synthetic-language" },
-    { "date": "2023", "entry": "Pervasive Media Studio Residency", "location": "Watershed, Bristol, UK" },
-    { "date": "2022", "entry": "Restructuring Futures — mobile strategies of display and mediation", "location": "London, UK", "slug": "restructuring-futures" }
+    {
+      "date": "2025",
+      "entry": "Hsinchu City Artsite Railway Warehouse Residency — Accton Arts Foundation",
+      "location": "Hsinchu, Taiwan"
+    },
+    {
+      "date": "2024",
+      "entry": "When Spiders Spin Dusk — residency at Ferme Lanthorn",
+      "location": "Wakefield, Quebec",
+      "slug": "when-spiders-spin-dusk"
+    },
+    {
+      "date": "2024",
+      "entry": "Radio-Hull Residency",
+      "location": "Hull, Quebec",
+      "slug": "sediments"
+    },
+    {
+      "date": "2024",
+      "entry": "SÍM Residency",
+      "location": "Reykjavik, Iceland",
+      "slug": "shipwreck"
+    },
+    {
+      "date": "2023",
+      "entry": "Poetics of Synthetic Language Residency",
+      "location": "Milan, Italy",
+      "slug": "poetics-of-synthetic-language"
+    },
+    {
+      "date": "2023",
+      "entry": "Pervasive Media Studio Residency",
+      "location": "Watershed, Bristol, UK"
+    },
+    {
+      "date": "2022",
+      "entry": "Restructuring Futures — mobile strategies of display and mediation",
+      "location": "London, UK",
+      "slug": "restructuring-futures"
+    }
   ],
   "recognition": [
     "Julie's Bicycle — Creative Climate Leadership programme",
@@ -42,7 +127,7 @@
     "Canada Council for the Arts - Seed Grant 2024"
   ],
   "speaking": [
-        {
+    {
       "venue": "Doing AI Differently — Culture x AI Workshop, ICML, Seoul (2026-07-10–11)",
       "title": "Position Paper: Cultural Fermentation: on Craft, Ecology, Listening, and Safety",
       "detail": "Respondent's Panel",
@@ -94,7 +179,6 @@
       "title": "Manifesting Future Festivals: Accessible, Capable, Resilient",
       "detail": "co-delivery with Rachel Weldon (Debaser / Pique), and Mira Silvers (FEMINAE NOX / FORT Agency)",
       "href": "https://soundcloud.com/mutek_montreal/mutek-dialogues-manifesting-future-festivals-accessible-capable-resilient?in=mutek_montreal/sets/mutek-dialogues-forum"
-
     },
     {
       "venue": "SAT Symposium ArtIA, Montréal (2025)",
@@ -113,5 +197,10 @@
     "Milieu — Co-founder, Placemaking Initiative Designer (2015–2017); Entrée Nord Nouméa revitalization masterplan by Aziza Chaouni Projects and Ville de Nouméa — digital community engagement and app design for participatory urban intervention and placemaking",
     "City of Guelph Civic Accelerator — working with municipal planning and GIS departments to design and develop digital tools for involving citizens in the process of urban design and planning",
     "Percy Station, Ottawa — designed the architectural concept and details, and supported fundraising, for turning a public parking lot into temporary park space"
-  ]
+  ],
+  "teaching": [],
+  "volunteer": [],
+  "adjudication": [],
+  "media": [],
+  "memberships": []
 }

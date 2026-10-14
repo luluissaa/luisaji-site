@@ -1,57 +1,75 @@
 [
   {
-    "slug": "spiralling-outwards",
-    "title": "When Spiders Spin Dusk: Spiralling Outwards",
-    "subtitle": "Collaborator statement",
-    "date": "2025-01",
-    "tags": ["writing", "programs:intelligent-terrain"],
-    "excerpt": "A collaborator's statement for an exhibition curated by Junghyun Kim in Seoul, South Korea, emerging from Intelligent Terrain — a speculative ecologies program centring on AI's entanglement with the landscape.",
-    "body": "[DRAFT — assembled from a summary of the live page, not the original wording. Pull the exact published text from Squarespace (/selected-works/spiraling-outwards) before publishing.]\n\nA collaborator's statement for an exhibition curated by Junghyun Kim in Seoul, South Korea. The project emerged from Intelligent Terrain, a speculative ecologies program centring on AI's entanglement with the landscape, which Luisa has developed as UKAI Projects' Studio Director since 2021.",
-    "relatedSlugs": ["intelligent-terrain", "when-spiders-spin-dusk"],
-    "published": false
-  },
-  {
-    "slug": "carnival-of-shipwreck",
-    "title": "When Spiders Spin Dusk: Carnival of Shipwreck",
-    "subtitle": "Curatorial statement",
-    "date": "2024-10",
-    "tags": ["writing", "curatorial", "ecological-ai", "cultural-production:when-spiders-spin-dusk"],
-    "excerpt": "A curatorial statement for an exhibition in Toronto (Oct 22–27, 2024) featuring six Canadian and South Korean artists exploring the tangles of organic, mechanical, and artificial intelligences.",
-    "body": "[DRAFT — assembled from a summary of the live page, not the original wording. Pull the exact published text from Squarespace (/selected-works/when-spiders-spin-dusk-carnival-shipwreck) before publishing.]\n\nA curatorial statement and exhibition provocation for Toronto, Canada, addressing the need to reimagine our relationships with the world around us — critiquing modern abstractions and linear narratives while questioning how communities might move forward differently. The exhibition features six Canadian and South Korean artists whose practices examine tangles of organic, mechanical, and artificial intelligences, developed through collaborative field studies at a regenerative farm in Quebec.",
-    "relatedSlugs": ["when-spiders-spin-dusk"],
-    "published": false
-  },
-  {
+    "cv_heading": "Artist talks, presentations and articles",
     "slug": "cultural-fermentation",
     "title": "Cultural Fermentation: on Craft, Ecology, Listening, and Safety",
     "subtitle": "Workshop abstract — Culture x AI Workshop, Doing AI Differently, ICML 2026",
     "date": "2026-07-10",
-    "tags": ["writing", "speaking", "programs:cultural-technologies-lab"],
+    "tags": [
+      "writing",
+      "speaking",
+      "programs:cultural-technologies-lab"
+    ],
     "excerpt": "Arts and cultural programming constitute core safety infrastructure — the generative prior condition without which governance cannot take root in communities — rather than a supplement to technical governance.",
-    "body": "Presented July 10–11, 2026 at the Doing AI Differently Culture x AI Workshop, held alongside the International Conference on Machine Learning (ICML) in Seoul, South Korea.\n\n**Abstract:** Conversations around AI safety tend to centre on regulatory frameworks, technical specifications, and institutional compliance. Through the perspective of arts and cultural production, we argue that we urgently need approaches centred on developing public imagination and localized capacity to steward AI infrastructures and generate shared knowledge. Drawing on Soetsu Yanagi's Mingei philosophy, Lambert Zuidervaart's concept of imaginative disclosure, and ecological models of intelligence developed through arts practices, Cultural Fermentation proposes that arts and cultural programming constitute core safety infrastructure — the generative prior condition without which governance cannot take root in communities — rather than as a supplement to technical governance.",
-    "relatedSlugs": ["cultural-technologies-lab"],
-    "published": false
+    "relatedSlugs": [
+      "cultural-technologies-lab"
+    ],
+    "published": true,
+    "body": "Presented July 10–11, 2026 at the Doing AI Differently Culture x AI Workshop, held alongside the International Conference on Machine Learning (ICML) in Seoul, South Korea.\n\n**Abstract:** Conversations around AI safety tend to centre on regulatory frameworks, technical specifications, and institutional compliance. Through the perspective of arts and cultural production, we argue that we urgently need approaches centred on developing public imagination and localized capacity to steward AI infrastructures and generate shared knowledge. Drawing on Soetsu Yanagi's Mingei philosophy, Lambert Zuidervaart's concept of imaginative disclosure, and ecological models of intelligence developed through arts practices, Cultural Fermentation proposes that arts and cultural programming constitute core safety infrastructure — the generative prior condition without which governance cannot take root in communities — rather than as a supplement to technical governance."
   },
   {
+    "cv_heading": "Artist talks, presentations and articles",
     "slug": "feral-inquiries",
     "title": "Intelligent Terrain: Feral Inquiries",
     "subtitle": "Research essay",
     "date": "2025-03",
-    "tags": ["writing", "research", "programs:intelligent-terrain"],
+    "tags": [
+      "writing",
+      "research",
+      "programs:intelligent-terrain"
+    ],
     "excerpt": "A three-year cross-disciplinary program exploring how AI and technology can deepen ecological engagement rather than perpetuate extraction, examining colonial legacies embedded in mapping and data systems.",
-    "body": "[DRAFT — assembled from a summary of the live page, not the original wording. Pull the exact published text from Squarespace (/selected-works/intelligent-terrain-research) before publishing.]\n\nA three-year cross-disciplinary program exploring how AI and technology can deepen ecological engagement rather than perpetuate extraction. The initiative examines the colonial legacies embedded in mapping and data systems while investigating alternative technological approaches to environmental and cultural restoration. \"Just as we inhabit our physical bodies, we inhabit landscapes and live within and from them.\"",
-    "relatedSlugs": ["intelligent-terrain"],
-    "published": false
+    "relatedSlugs": [
+      "intelligent-terrain"
+    ],
+    "published": true,
+    "body": "In an era where digital infrastructure increasingly mediates our relationship with the natural world, how can we leverage technology to deepen our ecological entanglement rather than continue our estrangement? Intelligent Terrain—a cross-disciplinary program I have led for the past three years—explores this question by bringing together artists, researchers, and technologists to investigate the intersection of AI and ecology.\n\nOur landscapes are constantly shifting. Intelligent Terrain operates on the premise that technology does not exist outside of cultural and ecological systems but emerges from them. This emergence is evident in tracing the history of cartography and its role in settler colonialism to modern mapping technologies that consolidate borders. Contemporary data extraction systems continue to commodify land and cultural knowledge by turning human behaviour into predictive models, satellite imaging used for resource exploitation and reinforcing historical land dispossession, and AI-driven agriculture prioritizing mono-crop yield optimization over ecosystem health. By examining these intersections, Intelligent Terrain interrogates how technological systems perpetuate colonial legacies of territorial control and economic extraction while exploring alternative models for digital tools that serve ecological and cultural restoration. The program aims to redefine what it means to “map” and “know” a place through the same technologies designed to exploit and extract.\n\nResearch Projects\n\nJerrold McGrath | Stories of Trespassing\n\nEl Ekeko | Rhiza—Human-mycelial Communications\n\nLuisa Ji | Ecological Metaphors of Invasive Species—Terraforming as a Method of Challenging Categories of Intelligence.\n\nErika Whyte | Don’t Go Chasing the Orbitals—Water in Speculative Design\n\nDarian Razdar | Labyrinth"
   },
   {
+    "cv_heading": "Artist talks, presentations and articles",
     "slug": "restructuring-futures-essay",
     "title": "Restructuring Futures: Notes on Asynchronous Creative Networks",
     "subtitle": "Design-research essay",
-    "date": "2021",
-    "tags": ["writing", "strategy:restructuring-futures"],
+    "date": "2021–2023",
+    "tags": [
+      "writing",
+      "strategy:restructuring-futures"
+    ],
     "excerpt": "A speculative worldbuilding project questioning technology's role in efficiency and scale, and how asynchronous creative networks can sustain artistic practice outside extractive systems.",
-    "body": "[DRAFT — assembled from a summary of the live page, not the original wording. Pull the exact published text from Squarespace (/selected-works/blog-post-title-four-h9m3l) before publishing — note the old URL is retired, not redirected, so this is the only place the essay text needs to be recovered from.]\n\nA speculative worldbuilding project questioning technology's role in efficiency and scale. The essay explores how asynchronous creative networks — distributed, nonlinear, and deeply contextual — can be structured to sustain artistic practice outside of extractive systems, drawing on work with Hypha Worker Cooperative and UKAI Projects between 2021 and 2023.",
-    "relatedSlugs": ["restructuring-futures"],
-    "published": false
+    "relatedSlugs": [
+      "restructuring-futures"
+    ],
+    "published": true,
+    "body": "Between 2021–2023, I led the design research for a speculative worldbuilding process that questions the entrenched assumption that technology must always serve efficiency, speed, and scale, for the partnered project Restructuring Futures. In response to the uncertainties—the pandemic, political unrest, financial instability, and more—impacting how artists and cultural producers cooperate in developing works, I explored how asynchronous creative networks—distributed, nonlinear, and deeply contextual—can be structured to sustain artistic practice outside of extractive systems.\n\nThis project examined how arts and cultural practices might reposition themselves in an era of rising volatility. If instability is the condition, how do we orient ourselves? What kinds of infrastructures, rhythms, and tools enable artists and cultural workers to build the capabilities needed to sit with uncertainty, rather than defaulting to reactive solutions? These questions guided the research and shaped the narrative architectures embedded within Restructuring Futures.\n\nCore Areas of Impact:\n\n* Speculative Worldbuilding as Strategy for Resilient Arts Practices – Building conceptual and narrative frameworks that expand the ways we inhabit artistic and socio-technical ecosystems.\n* Storytelling as Infrastructure – Developing methods to use narrative as a tool for collective sense-making, countering dominant techno-solutionist myths.\n* Asynchronous Creative Networks – Rethinking collaboration beyond immediacy and productivity, designing systems where meaning can emerge across different temporalities and scales.\n* Cultural Practice as Orientation – Positioning the arts not as an aesthetic afterthought or purely as self-expression of creativity but as a way to build embodied capacities for navigating instability.\n* Strategic Insights for Arts Organizations – Mapping out what cultural institutions need to adapt to an era of increasing ecological, economic, and political uncertainty.\n* Forecasting New Models for Artistic Production – Anticipating the decline of traditional funding and resourcing in the arts while developing new ways for cultural production to actively shape how people engage with the systems they inhabit and seek to transform.\n\nThrough this work, I engaged with artists, technologists, and cultural practitioners to explore how creative labour can move beyond prescriptive futures and become a site for engaging with ambiguity. I also worked with creative communities online and offline in Toronto and London, UK, to deepen the impact of cultural responses to an increasingly volatile future. Throughout this process, three distinct narrative arcs have developed and intersected, each contributing to prototyping a decentralized collaborative digital platform developed in partnership with Hypha Worker’s Co-operative. Restructuring Futures doesn’t just imagine alternatives—it traces the contours of what cultural work must become to remain vital in an age of continuous upheaval.\n\nRead more: [archive.ukaiprojects.com/projects/restructuring-futures/](https://archive.ukaiprojects.com/projects/restructuring-futures/)\n\nfunding: Canada Council for the Arts Digital Strategy Fund\n\nin partnership with: UKAI Projects, The Laboratory for Artistic Intelligence, Hypha Worker Cooperative\n\ncollaborators and artists-in-residence: 200+ global contributors through 9 workshops"
+  },
+  {
+    "cv_heading": "Artist talks, presentations and articles",
+    "slug": "when-spiders-spin-dusk-statement",
+    "title": "When Spiders Spin Dusk: Curatorial Statement",
+    "subtitle": "Curatorial statement",
+    "date": "2024-10",
+    "tags": [
+      "writing",
+      "curatorial",
+      "ecological-ai",
+      "cultural-production:when-spiders-spin-dusk"
+    ],
+    "excerpt": "A curatorial statement for an exhibition in Toronto (Oct 22–26, 2024, at Carnival of Shipwreck) featuring six Canadian and South Korean artists exploring the tangles of organic, mechanical, and artificial intelligences.",
+    "relatedSlugs": [
+      "when-spiders-spin-dusk",
+      "carnival-of-shipwreck"
+    ],
+    "published": true,
+    "body": "We urgently need to reimagine our relationships with the world around us and with each other. We have inherited a culture that relies increasingly on abstractions that urge us to categorize, measure, and optimize for our own needs. We cling to broken promises of modernity, to linear narratives of past, present, and future that offer some sense of rescue and faith that tomorrow will somehow be better than today. Our pursuit of efficiency no longer seems to be yielding a better life. Moving forward no longer makes sense. We are left wondering what we might do next.\n\nIn a shipwreck off the coast of Greece, researchers recovered the Antikythera Mechanism, an ancient analog computer that modelled the universe with Earth at its center. This sophisticated technology, with its intricate gears representing the observable heavens, is now a relic of a worldview that no longer holds true. In a sense, a world in which the Earth sits at the center ended. Today, we find ourselves living alongside technologies that ostensibly offer a better life yet feel confronted by the existential dread that a “better life” may prove illusory. Carnival of Shipwreck provides a backdrop for a world where no lifeboats are available and no rescue is coming.\n\nWhen Spiders Spin Dusk, co-curated by Junghyun Kim and UKAI Projects, features works by Canadian artists Erika-Jean Lincoln, François Quevillon, Maurice Jones, and Korean artists Unmake Lab, Sunjoo Lee, and Sunjeong Hwang. Their practices navigate tangles of organic, mechanical, and artificial intelligences, shedding light on how we are deeply intertwined with both technology and the landscapes we inhabit. The works probe the shifting contours of an environment marred by our estrangement.\n\nIn September 2024, these artists came together at Ferme Lanthorn, a regenerative farm near Wakefield, Quebec, where the rhythms of the landscape shaped their process of exchange and experimentation. The farm, specializing in willow cultivation, became a site of connection that underpinned this exhibition. Through field studies, workshops, and encounters with the living systems specific to the site, the artists grounded their work in the cycles of the farm and collective exploration, deepening their interdisciplinary connections to the landscape.\n\nHow might artistic inquiries help us make sense of intelligences and perspectives that diverge from our own? How might the arts provide grounds for telling stories at the end of the world? This research project and exhibition trace a path that reflects the intertwined realities of ecology, technology, and culture. Through video works and interactive installations, the artworks on display reflect on how technologies born of efficiency and scale can be transformed to embody other values and alternate ways of understanding the world undergoing massive changes that are difficult to comprehend.\n\nThe title, When The Spiders Spin Dusk, draws connections from Egyptian, Roman, and Greek mythology as metaphors for how stories travel across time and places and become vessels for artists to inhabit. Neith, created the spider to help her weave the world into being at dawn and destroy the world at dusk. Carefully worded, “ttang-geomi” is both spider and dusk in Korean. This project concerns telling stories at the end of the world.\n\nWhen Spiders Spin Dusk at Carnival of Shipwreck offers no simple answers, but instead presents an eclectic array of perspectives from Canadian and South Korean artists that invite reflection and dialogue. This exhibition is an exploration of what lies beyond linear logic. It is an invitation to each of us to reconsider our place within a dynamic web of relationships.\n\nWe invite you to look closely, to question, and perhaps, to reimagine your own story amid this intricate tangle of worlds—some about to end, some beginning at dusk.\n\nCredits\n\nProgram Planning and Delivery: Junghyun Kim and UKAI Projects\n\nCarnival of Shipwreck festival program: Participating Artists: Unmake Lab, Sunjoo Lee, Sunjeong Hwang, Erika Jean Lincoln, François Quévillon, Maurice Jones\n\nIn collaboration with: Ferme Lanthorn (Wakefield, QC) for on-site studies between September 11–17, 2024 and Canadian Museum of Nature for research exchange\n\nSpecial Thanks to: Paul Hamilton, the Canadian Museum of Nature\n\nFunding: Arts Council Korea\n\nNotes:\n\nThe project's conceptual development and curatorial perspective are rooted in artistic exchange and an experimental approach to diverging understandings of intelligence. The project deepens the understanding of nature and non-nature through translation: in words, vernacular knowledge, imagery, sound, sensory perception, digital-non-digital, and critical spatial practice. The title, When The Spiders Spin Dusk, draws connections from Egyptian, Roman, and Greek mythology as metaphors for how stories travel across time and places and become vessels for artists to inhabit.\n\nNeith created the spider to help her weave the world into being at dawn and destroy the world at dusk. Athena turned Arachne into a spider to weave for eternity. Ovid's rendition serves as a vessel to bring injustices to light. Carefully worded, “ttang-geomi” is both spider and dusk in Korean."
   }
 ]

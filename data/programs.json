@@ -1,84 +1,105 @@
 [
   {
+    "cv_heading": "Artists and community collaboration activities",
     "slug": "intelligent-terrain",
     "title": "Intelligent Terrain",
     "role": "Lead Producer, Researcher, Curriculum Designer",
-    "dates": "2022–ongoing",
+    "dates": "2021–ongoing",
     "status": "available for co-production",
-    "description": "The program centres on land-based knowledge, patterns of natural ecology, and digital landscapes to explore the implications of algorithmic systems, automation, machine sensing, and displacement, exile, and migration across digital and physical borders. Intelligent Terrain is an exploration of art-based land regeneration and ecological storytelling. Co-produced with UKAI Projects and Ferme Lanthorn (Wakefield, Quebec); funded by the Canada Council for the Arts Digital Greenhouse.",
     "editions": [
+      "Research and program design, 2021",
       "Cohort 2022",
       "Cohort 2024 Spring",
-      "Cohort 2024 Fall (Canada–Korea co-production)",
+      "When Spiders Spin Dusk — Canada–Korea residency, Ferme Lanthorn, 2024",
       "Call of the Void — abridged online program, 2025–ongoing"
     ],
     "links": [
-      { "label": "Read more (UKAI Projects case study)", "href": "https://www.ukaiprojects.com/case-studies/intelligent-terrain" }
+      {
+        "label": "Read more (UKAI Projects case study)",
+        "href": "https://www.ukaiprojects.com/case-studies/intelligent-terrain"
+      }
     ],
     "images": [],
-    "published": false
+    "published": true,
+    "description": "The program centres on land-based knowledge, patterns of natural ecology, and digital landscapes to explore the implications of algorithmic systems, automation, machine sensing, and displacement, exile, and migration across digital and physical borders. Intelligent Terrain is an exploration of art-based land regeneration and ecological storytelling. Co-produced with UKAI Projects and Ferme Lanthorn (Wakefield, Quebec); funded by the Canada Council for the Arts Digital Greenhouse."
   },
   {
+    "cv_heading": "Artists and community collaboration activities",
     "slug": "goblin-market",
     "title": "Goblin Market",
     "role": "Lead Producer",
     "dates": "2024–ongoing",
     "status": "available for co-production",
-    "description": "A post-scarcity festival framework that reappropriates \"rituals of commerce\" for fostering generosity, collaboration, and transformation. Organized around three pillars — Circular Mentorship, Prototyping Abundance (this is also where the homepage's \"Prototyping Alternative Arts Marketplace\" mention belongs, rather than a separate entry), and Art in Every Neighbourhood. Co-creators include Abbey Richens, Adrian Layner, Amelia Winger-Bearskin, annais linares, Emil Woudenberg, Luisa Ji, and Tricia Enns.",
-    "editions": ["Toronto 2025", "Montréal 2025", "Hsinchu, Taiwan 2025", "Halifax 2026"],
+    "editions": [
+      "Toronto, March 2025, Allan Gardens",
+      "Montréal, April 2025, GU",
+      "Hsinchu, Taiwan, December 2025, General Village",
+      "Halifax, June 2026, Centre for Art Tapes"
+    ],
     "links": [
-      { "label": "luisaji.com/goblin-market", "href": "https://luisaji.com/goblin-market" },
-      { "label": "HOLO Magazine × MUTEK — Future Festivals", "href": "https://www.holo.mg/dossiers/future-festivals-field-guide/" },
-      { "label": "Instagram", "href": "https://www.instagram.com/goblins_everywhere" },
-      { "label": "Newsletter", "href": "https://goblin-market.ghost.io" }
+      {
+        "label": "goblinseverywhere.ca",
+        "href": "https://goblinseverywhere.ca"
+      },
+      {
+        "label": "HOLO Magazine × MUTEK — Future Festivals",
+        "href": "https://www.holo.mg/dossiers/future-festivals-field-guide/"
+      },
+      {
+        "label": "Instagram",
+        "href": "https://www.instagram.com/goblins_everywhere"
+      }
     ],
     "images": [],
-    "published": false
+    "published": true,
+    "description": "A post-scarcity festival framework that reappropriates \"rituals of commerce\" for fostering generosity, collaboration, and transformation. Organized around three pillars — Circular Mentorship, Prototyping Abundance, and Art in Every Neighbourhood. Co-creators include Abbey Richens, Adrian Layner, Amelia Winger-Bearskin, annais linares, Emil Woudenberg, Luisa Ji, and Tricia Enns."
   },
   {
+    "cv_heading": "Artists and community collaboration activities",
     "slug": "cultural-technologies-lab",
     "title": "Cultural Technologies Lab",
     "role": "Co-Lead",
     "dates": "2025–ongoing",
     "status": "available for institutional partnership",
-    "description": "A community of practice reclaiming culture as a dynamic force for resilience rather than as a passive reflection of existing power structures.",
     "editions": [],
     "links": [
-      { "label": "culturaltechnologieslab.org", "href": "https://www.culturaltechnologieslab.org" },
-      { "label": "UKAI Projects case study", "href": "https://www.ukaiprojects.com/case-studies/cultural-technologies-lab" }
-    ],
-    "upcomingEvents": [
-      { "label": "Read Outside with Book Club Toronto — Toronto Climate Week", "date": "2026-06-05", "href": "https://luma.com/tocw-q1q4" },
-      { "label": "how do we go FERAL?! — Toronto Climate Week", "date": "2026-06-06", "href": "https://luma.com/tocw-zu1d" }
+      {
+        "label": "culturaltechnologieslab.org",
+        "href": "https://www.culturaltechnologieslab.org"
+      },
+      {
+        "label": "UKAI Projects case study",
+        "href": "https://www.ukaiprojects.com/case-studies/cultural-technologies-lab"
+      }
     ],
     "images": [],
-    "embed": null,
-    "published": false
+    "embed": "<iframe\n  src=\"https://luma.com/embed/calendar/cal-C0Zlf2FY9HF1Coa/events\"\n  width=\"600\"\n  height=\"450\"\n  frameborder=\"0\"\n  style=\"border: 1px solid #bfcbda88; border-radius: 4px;\"\n  allowfullscreen=\"\"\n  aria-hidden=\"false\"\n  tabindex=\"0\"\n></iframe>\n",
+    "published": true,
+    "description": "A community of practice reclaiming culture as a dynamic force for resilience rather than as a passive reflection of existing power structures.\n\nThe Cultural Technologies Lab identifies, localizes, and amplifies cultural practices and technologies. We seek to document and apply vital tools for adaptation to climate volatility and its downstream impacts in technology, rising authoritarianism, and social inequality.\n\nFounded as an independent initiative, the Lab builds on UKAI Projects’ ethos of “culture for what’s coming.”"
   },
   {
+    "cv_heading": "Residencies",
     "slug": "poetics-of-synthetic-language",
     "title": "Poetics of Synthetic Language",
     "role": "Co-Producer, Contributor",
     "dates": "2023",
     "status": "completed",
-    "description": "A residency and experimental archive of artificial intelligence, large language models, and algorithmic systems, edited by Jerrold McGrath and Mida Fiore (Milan, Italy). Luisa's contribution to the archive includes the piece \"Pigeon Time\" (2023).",
     "editions": [],
-    "links": [
-      { "label": "Read more (UKAI Projects archive)", "href": "https://archive.ukaiprojects.com/projects/poetics-of-synthetic-language/" }
-    ],
     "images": [],
-    "published": false
+    "published": true,
+    "description": "A residency and experimental archive of artificial intelligence, large language models, and algorithmic systems, edited by Jerrold McGrath and Mida Fiore (Milan, Italy). Presented in Toronto and Milan. Luisa's contribution to the archive includes the piece \"Pigeon Time\" (2023)."
   },
   {
+    "cv_heading": "Teaching and mentorships",
     "slug": "beingverse",
     "title": "BEINGverse",
     "role": "Program Designer, Facilitator",
     "dates": "2022",
     "status": "completed",
-    "description": "Arts mentorship program design and curation of an Augmented Reality community showcase, in collaboration with BEING Studio.",
     "editions": [],
     "links": [],
     "images": [],
-    "published": false
+    "published": true,
+    "description": "Arts mentorship program design and curation of an Augmented Reality community showcase, in collaboration with BEING Studio, a non-profit disability arts organization that provides accessible programs, studio space and commercializing opportunities for artists with developmental disabilities, in Ottawa."
   }
 ]
