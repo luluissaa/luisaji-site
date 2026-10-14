@@ -19,6 +19,11 @@ const DATA = path.join(ROOT, 'data');
 const TEMPLATES = path.join(ROOT, 'templates');
 const OUT = path.join(ROOT, 'dist');
 
+// Path prefix for hosting under a subdirectory, e.g. BASE_PATH=/luisaji-site
+// for the GitHub Pages preview at luluissaa.github.io/luisaji-site/. Leave
+// unset when the site is served from a domain root (luisaji.com).
+const BASE_PATH = (process.env.BASE_PATH || '').replace(/\/+$/, '');
+
 function readJSON(name) {
   return JSON.parse(fs.readFileSync(path.join(DATA, name), 'utf8'));
 }
@@ -32,7 +37,16 @@ function fill(template, values) {
   return template.replace(/{{\s*(\w+)\s*}}/g, (_, key) => (key in values && values[key] != null ? values[key] : ''));
 }
 
+// Root-relative URLs come from templates, data/*.json and markdown bodies
+// alike, so prefix them once here on the finished HTML rather than at each
+// source. Protocol-relative ("//host") URLs are left alone.
+function withBasePath(html) {
+  if (!BASE_PATH) return html;
+  return html.replace(/\b(href|src)="\/(?!\/)/g, `$1="${BASE_PATH}/`);
+}
+
 function writeFile(relPath, content) {
+  content = withBasePath(content);
   const full = path.join(OUT, relPath);
   fs.mkdirSync(path.dirname(full), { recursive: true });
   fs.writeFileSync(full, content);

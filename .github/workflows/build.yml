@@ -33,7 +33,11 @@ jobs:
       # scripts/validate.js for what it checks.
       - run: npm run validate
 
+      # Served from luluissaa.github.io/luisaji-site/ until the luisaji.com
+      # cutover — remove BASE_PATH once the custom domain is live.
       - run: npm run build
+        env:
+          BASE_PATH: /luisaji-site
 
       # On a pull request, stop here — build + validate passing is the
       # "preview" signal for now. Only a push to main deploys.
